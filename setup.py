@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(name='pylr2',
-      version='0.1.0',
+      version='0.1.1',
       description='Linear Regression Type II Models',
-      long_description='This python package (pylr2) provide linear regression type 2 (regress2), which are recommended to be used when there is variability in both variables regressed. It uses linear regression type 1 from the statsmodels package.',
+      long_description='This python package (pylr2) provides linear regression type 2 (regress2), which are recommended when there is variability in both variables regressed. It uses linear regression type 1 from the statsmodels package.',
       url='https://github.com/OceanOptics/pylr2.git',
       author='Nils Haentjens',
       author_email='nils.haentjens@maine.edu',

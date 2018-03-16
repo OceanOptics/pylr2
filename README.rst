@@ -15,6 +15,9 @@ Linear Regression Type 2 models supported are:
 
 Example of usage:
 ::
+    from pylr2 import regress2
+
+
     # Generate a dataset
     x = np.linspace(0, 10, 100)
     e = np.random.normal(size=len(x))

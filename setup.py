@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+
+setup(name='pylr2',
+      version='0.1.0',
+      description='Linear Regression Type II Models',
+      long_description='This python package (pylr2) provide linear regression type 2 (regress2), which are recommended to be used when there is variability in both variables regressed. It uses linear regression type 1 from the statsmodels package.',
+      url='https://github.com/doizuc/pylr2',
+      author='Nils Haentjens',
+      author_email='nils.haentjens@maine.edu',
+      license='MIT',
+      classifiers=['Development Status :: 3 - Alpha',
+                   'Intended Audience :: Education',
+                   'Intended Audience :: Science/Research',
+                   'License :: OSI Approved :: MIT License',
+                   'Programming Language :: Python :: 3',
+                   'Programming Language :: Python :: 3.6'],
+      keywords='lr2 regress2 regression fit',
+      packages=find_packages(),
+      install_requires=['numpy', 'statsmodels'],
+      zip_safe=True)

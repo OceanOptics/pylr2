@@ -13,7 +13,7 @@ Linear Regression Type 2 models supported are\:
   - reduced major axis ( also known as geometric mean) <default>
   - arithmetic mean
 
-Example of usage
+Example of usage:
 ::
     # Generate a dataset
     x = np.linspace(0, 10, 100)
